@@ -3,8 +3,7 @@
 import { motion } from 'framer-motion'
 import Hero from '@/components/Hero'
 import ResumeButton from '@/components/ResumeButton'
-import QuickLinks from '@/components/QuickLinks'
-import ContactCard from '@/components/ContactCard'
+import ConnectSection from '@/components/ConnectSection'
 import ProjectHighlight from '@/components/ProjectHighlight'
 import Footer from '@/components/Footer'
 
@@ -18,8 +17,7 @@ export default function Home() {
     >
       <Hero />
       <ResumeButton />
-      <QuickLinks />
-      <ContactCard />
+      <ConnectSection />
       <ProjectHighlight />
       <Footer />
     </motion.main>
