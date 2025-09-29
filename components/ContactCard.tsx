@@ -14,10 +14,11 @@ export default function ContactCard() {
     const vCard = `BEGIN:VCARD
 VERSION:3.0
 FN:Harsh Dwivedi
-ORG:Syracuse University
+N:Dwivedi;Harsh;;;
 TITLE:M.S. Computer Engineering | Software & AI Engineer
-TEL:+1-XXX-XXX-XXXX
-EMAIL:eharshdwivedi@gmail.com
+ORG:Syracuse University
+TEL:+1-690-216-2032
+EMAIL:edwivediharsh@gmail.com
 URL:https://harsh-flame.vercel.app
 URL:https://www.linkedin.com/in/harsh-dwivedi-854b39202
 URL:https://github.com/harsh746-exe
@@ -37,7 +38,7 @@ END:VCARD`
   }
 
   const handleEmailClick = () => {
-    const mailtoUrl = `mailto:eharshdwivedi@gmail.com`
+    const mailtoUrl = `mailto:edwivediharsh@gmail.com`
     window.open(mailtoUrl, '_blank')
   }
 
